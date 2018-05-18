@@ -1,0 +1,19 @@
+{
+  "name": "amir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js & browser-sync start --proxy \"localhost:3000\" --files \"www/**/*\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4"
+  }
+}
