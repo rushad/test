@@ -1,7 +1,18 @@
 body {
-    background: #acf;
+    background: #efe;
+    text-align: center;
 }
 
-.greeting {
-    color: #fff;
+.links {
+    font-size: 36px;
+}
+
+.links a {
+    display: block;
+}
+
+.kitten {
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 2px #888;
 }
